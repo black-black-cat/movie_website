@@ -1,0 +1,29 @@
+{
+  "name": "movie_website",
+  "version": "1.0.0",
+  "description": "由node.js与MongoDB组织后端的电影网站",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/black-black-cat/movie_website.git"
+  },
+  "keywords": [
+    "node.js",
+    "mongodb"
+  ],
+  "author": "Jeff Lin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/black-black-cat/movie_website/issues"
+  },
+  "homepage": "https://github.com/black-black-cat/movie_website#readme",
+  "devDependencies": {
+    "bootstrap": "^3.3.6",
+    "express": "^4.13.4",
+    "jade": "^1.11.0",
+    "mongoose": "^4.4.3"
+  }
+}
