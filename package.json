@@ -21,9 +21,13 @@
   },
   "homepage": "https://github.com/black-black-cat/movie_website#readme",
   "devDependencies": {
+    "body-parser": "^1.15.0",
     "bootstrap": "^3.3.6",
+    "bower": "^1.7.7",
+    "connect": "^3.4.1",
     "express": "^4.13.4",
     "jade": "^1.11.0",
+    "moment": "^2.11.2",
     "mongoose": "^4.4.3"
   }
 }
