@@ -1,7 +1,7 @@
 var express = require('express');
 var bodyParser = require('body-parser');
 var path = require('path');
-var port = process.env.PORT || 3000;
+var port = process.env.PORT || 9999;
 var app = express();
 
 app.set('views', './views/pages');
@@ -20,12 +20,12 @@ app.get('/', function(req, res) {
         movies: [{
             title: '123',
             _id: '1',
-            poster: ''
+            poster: 'http://lorempixel.com/400/200/sports/1'
 
         }, {
             title: '456',
             _id: '2',
-            poster: ''
+            poster: 'http://lorempixel.com/400/200/sports/2'
         }]
     });
 });
@@ -47,7 +47,7 @@ app.get('/movie/:id', function(req, res) {
     });
 });
 
-// admin
+// admin 后台管理
 app.get('/admin/movie', function(req, res) {
     res.render('admin', {
         title: '后台录入',

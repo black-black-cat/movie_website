@@ -1,33 +1,38 @@
 {
-  "name": "movie_website",
-  "version": "1.0.0",
-  "description": "由node.js与MongoDB组织后端的电影网站",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/black-black-cat/movie_website.git"
-  },
-  "keywords": [
-    "node.js",
-    "mongodb"
-  ],
-  "author": "Jeff Lin",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/black-black-cat/movie_website/issues"
-  },
-  "homepage": "https://github.com/black-black-cat/movie_website#readme",
-  "devDependencies": {
-    "body-parser": "^1.15.0",
-    "bootstrap": "^3.3.6",
-    "bower": "^1.7.7",
-    "connect": "^3.4.1",
-    "express": "^4.13.4",
-    "jade": "^1.11.0",
-    "moment": "^2.11.2",
-    "mongoose": "^4.4.3"
-  }
+    "name": "movie_website",
+    "version": "1.0.0",
+
+    "description": "由node.js与MongoDB组织后端的电影网站",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "reload": "browser-sync start --proxy localhost:9999 --files \"./views/**/*.jade\""
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/black-black-cat/movie_website.git"
+    },
+    "keywords": [
+        "node.js",
+        "mongodb"
+    ],
+    "author": "Jeff Lin",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/black-black-cat/movie_website/issues"
+    },
+    "homepage": "https://github.com/black-black-cat/movie_website#readme",
+    "devDependencies": {
+        "body-parser": "^1.15.0",
+        "bootstrap": "^3.3.6",
+        "bower": "^1.7.7",
+        "connect": "^3.4.1",
+        "express": "^4.13.4",
+        "gulp": "*",
+        "gulp-livereload": "*",
+        "gulp-watch": "*",
+        "jade": "^1.11.0",
+        "moment": "^2.11.2",
+        "mongoose": "^4.4.3"
+    }
 }

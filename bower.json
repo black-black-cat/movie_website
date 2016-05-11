@@ -1,0 +1,26 @@
+{
+  "name": "movie_website",
+  "description": "由node.js与MongoDB组织后端的电影网站",
+  "main": "app.js",
+  "authors": [
+    "Jeff Lin"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "node.js",
+    "mongodb"
+  ],
+  "homepage": "https://github.com/black-black-cat/movie_website",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "1.11.3",
+    "bootstrap": "~3.3.6"
+  }
+}
